@@ -1,5 +1,0 @@
-#! /bin/sh
-su postgres 
-
-psql -c "CREATE DATABASE titanic WITH ENCODING 'UTF8';"
-psql -c "
